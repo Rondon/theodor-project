@@ -1,123 +1,110 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Theodor Lowenkron | Psiquiatra (MD-PhD)</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header, nav, main, footer {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px 0;
-        }
-        header {
-            text-align: center;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: #0073db;
-        }
-        section {
-            margin-bottom: 40px;
-        }
-        h1, h2, h3 {
-            color: #0056b3;
-        }
-        .contact-info {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            background-color: #f4f4f4;
-            padding: 10px 0;
-            margin-top: 20px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Theodor Lowenkron | Psiquiatra</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header, footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <h1>Dr. Theodor Lowenkron</h1>
-    <p>Psiquiatra | MD-PhD</p>
+  <h1>Dr. Theodor Lowenkron</h1>
+  <p>Psiquiatra | MD-PhD</p>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#consultas">Consultas</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#livro">Livro</a>
+    <a href="#contato">Contato</a>
+  </nav>
 </header>
 
-<nav>
+<main class="container">
+
+  <section id="sobre">
+    <h2>Sobre o Dr. Theodor Lowenkron</h2>
+    <p>Dr. Theodor Lowenkron é psiquiatra com vasta experiência, tendo realizado mestrado e doutorado com enfoque em neurociências e psicanálise. Atua na formação de profissionais de saúde mental e tem contribuições acadêmicas reconhecidas.</p>
+  </section>
+
+  <section id="consultas">
+    <h2>Consultas Presenciais & Online</h2>
+    <p>Endereço: Rua Jardim Botânico 700 / 321, Jardim Botânico, Rio de Janeiro.</p>
+    <p>Tel: (21) 96990-6202</p>
     <ul>
-        <li><a href="#consultas">Consultas</a></li>
-        <li><a href="#experiencia">Experiência Profissional</a></li>
-        <li><a href="#publicacoes">Publicações</a></li>
-        <li><a href="#contato">Contato</a></li>
+      <li>Estacionamento gratuito</li>
+      <li>Receita com certificado digital para consultas online</li>
+      <li>Não aceitamos planos de saúde</li>
     </ul>
-</nav>
+    <a href="#contato" class="cta-button">Marcar Consulta</a>
+  </section>
 
-<main>
-    <section id="sobre">
-        <h2>Sobre o Dr. Theodor Lowenkron</h2>
-        <p>Dr. Theodor Lowenkron é psiquiatra com mais de 25 anos de experiência. Realizou mestrado em Psicologia na UFF e doutorado em Saúde Coletiva com tese em Neurociências e Psicanálise no Instituto de Medicina Social da UERJ e pela Universidade de Genebra, na Suíça.</p>
-        <p>Dedica-se à formação de médicos psiquiatras e outros profissionais de saúde mental, tendo sido responsável pela criação de dois programas de Residência Médica em Psiquiatria (CPRJ e HU-UFRJ).</p>
-        <p>É autor do livro "A Psiquiatria no Divã: Entre as Ciências da Vida e a Medicalização da Existência", uma referência na área, contando com cerca de 200 citações em publicações científicas.</p>
-        <p>CRM-RJ 1234567-8 | RQE 12345</p>
-    </section>
+  <section id="experiencia">
+    <h2>Experiência Profissional</h2>
+    <ul>
+      <li>Faculdade de Medicina - UFRJ</li>
+      <li>Residência Médica em Psiquiatria - UFRJ</li>
+      <li>Coordenação de programas de residência</li>
+      <li>Doutorado em Saúde Coletiva - UERJ & Universidade de Genebra</li>
+      <li>Professor e pesquisador em instituições renomadas</li>
+    </ul>
+  </section>
 
-    <section id="consultas">
-        <h2>Consultas Presenciais & Online</h2>
-        <div class="contact-info">
-            <p><strong>Endereço:</strong><br>
-            Rua Exemplo, 123 / Sala 456, Bairro Exemplar. Rio de Janeiro.<br>
-            Tel: (21) 98765-4321</p>
-            <ul>
-                <li>Estacionamento gratuito no local</li>
-                <li>Envio da receita com certificado digital após a consulta online</li>
-                <li>Não aceitamos planos de saúde</li>
-            </ul>
-        </div>
-        <p><a href="https://www.theodorlowenkron.com.br/marcarconsulta" target="_blank">Marcar Consulta</a></p>
-    </section>
+  <section id="livro">
+    <h2>Livro: A Psiquiatria no Divã</h2>
+    <p>Entre as ciências da vida e a medicalização da existência. Obra com mais de 200 citações acadêmicas, escrita clara e acessível.</p>
+  </section>
 
-    <section id="experiencia">
-        <h2>Experiência Profissional</h2>
-        <ul>
-            <li><strong>1991-1997:</strong> Faculdade de Medicina - Universidade Federal do Rio de Janeiro (UFRJ)</li>
-            <li><strong>1998-2000:</strong> Residência Médica em Psiquiatria - Universidade Federal do Rio de Janeiro (UFRJ)</li>
-            <li><strong>2001-2011:</strong> Coordenador da Enfermaria - Centro Psiquiátrico do Rio de Janeiro (CPRJ)</li>
-            <li><strong>2002-2004:</strong> Mestrado em Psicologia - Universidade Federal Fluminense (UFF)</li>
-            <li><strong>2005-2011:</strong> Coordenador da Residência Médica em Psiquiatria - Centro Psiquiátrico do Rio de Janeiro (CPRJ)</li>
-            <li><strong>2011-2012:</strong> Coordenador da Residência Médica em Psiquiatria - Serviço de Psiquiatria e Psicologia Médica do Hospital Universitário da UFRJ</li>
-            <li><strong>2011-2016:</strong> Professor da Residência Médica em Psiquiatria - Serviço de Psiquiatria e Psicologia Médica do Hospital Universitário da UFRJ</li>
-            <li><strong>2012-2016:</strong> Doutorado em Saúde Coletiva - Instituto de Medicina Social (UERJ) e Universidade de Genebra (Suíça)</li>
-            <li><strong>2016-2018:</strong> Professor de Psiquiatria - Internato em Saúde Mental e Medicina de Família da Faculdade de Medicina - UFRJ</li>
-            <li><strong>2018-2021:</strong> Professor Convidado - Curso de Neurociências, Psiquiatria & Psicanálise - Mestrado Profissional em Saúde Mental Instituto de Psiquiatria - IPUB/UFRJ</li>
-            <li><strong>2000-2024:</strong> Clínica Particular em Psiquiatria - Serviço de Psiquiatria e Psicologia Médica do Hospital Universitário da UFRJ</li>
-        </ul>
-    </section>
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@theodorlowenkron.com.br</p>
+    <p>WhatsApp: (21) 96990-6202</p>
+  </section>
 
-    <section id="publicacoes">
-        <h2>Publicações</h2>
-        <p><strong>A Psiquiatria no Divã</strong><br>
-        Entre as Ciências da Vida e a Medicalização da Existência</p>
-        <p>Este livro se tornou uma referência na área, contando com cerca de 200 citações em teses, dissertações e artigos científicos. Sua escrita é clara e acessível, podendo ser lido pelo público em geral.</p>
-    </section>
 </main>
 
 <footer>
+  <p>&copy; 2025 Theodor Lowenkron - Todos os direitos reservados</p>
+  <small><a href="#termos" style="color: white;">Termos de uso</a> | <a href="#privacidade" style="color: white;">Política de Privacidade</a></small>
+</footer>
 
-::contentReference[oaicite:0]{index=0}
- 
+</body>
+</html>
