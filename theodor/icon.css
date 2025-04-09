@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'zenler-community';
+  src:  url('fonts/zenler-community.eot?alx3mm');
+  src:  url('fonts/zenler-community.eot?alx3mm#iefix') format('embedded-opentype'),
+    url('fonts/zenler-community.ttf?alx3mm') format('truetype'),
+    url('fonts/zenler-community.woff?alx3mm') format('woff'),
+    url('fonts/zenler-community.svg?alx3mm#zenler-community') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="zc-icon-"], [class*=" zc-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'zenler-community' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.zc-icon-bell:before {
+  content: "\e900";
+}
+.zc-icon-camera:before {
+  content: "\e901";
+}
+.zc-icon-chat:before {
+  content: "\e902";
+}
+.zc-icon-chat-bubble:before {
+  content: "\e903";
+}
+.zc-icon-check:before {
+  content: "\e904";
+}
+.zc-icon-close:before {
+  content: "\e905";
+}
+.zc-icon-community:before {
+  content: "\e906";
+}
+.zc-icon-crown:before {
+  content: "\e907";
+}
+.zc-icon-edit:before {
+  content: "\e908";
+}
+.zc-icon-feed:before {
+  content: "\e909";
+}
+.zc-icon-like:before {
+  content: "\e90a";
+}
+.zc-icon-liked:before {
+  content: "\e90b";
+}
+.zc-icon-link:before {
+  content: "\e90c";
+}
+.zc-icon-more-h:before {
+  content: "\e90d";
+}
+.zc-icon-more-h2:before {
+  content: "\e90e";
+}
+.zc-icon-more-v:before {
+  content: "\e90f";
+}
+.zc-icon-more-v2:before {
+  content: "\e910";
+}
+.zc-icon-speech-bubble:before {
+  content: "\e911";
+}
+.zc-icon-tick:before {
+  content: "\e912";
+}
+.zc-icon-trash:before {
+  content: "\e913";
+}
+.zc-icon-video:before {
+  content: "\e914";
+}
