@@ -1,0 +1,33 @@
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonial-box {
+    background-color: #0078e7;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.see-more-btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0078e7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.see-more-container {
+    text-align: center;
+}
